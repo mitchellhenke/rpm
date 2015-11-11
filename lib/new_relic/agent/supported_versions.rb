@@ -120,6 +120,13 @@ module NewRelic
         :url         => "https://rubygems.org/gems/grape",
         :feed        => "https://rubygems.org/gems/grape/versions.atom"
       },
+      :roda =>
+      {
+        :type        => :web,
+        :supported   => ["~> 2.0"],
+        :url         => "https://rubygems.org/gems/roda",
+        :feed        => "https://rubygems.org/gems/roda/versions.atom"
+      },
 
       # Database
       :activerecord =>

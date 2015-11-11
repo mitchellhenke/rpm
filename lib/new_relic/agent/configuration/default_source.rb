@@ -1381,6 +1381,20 @@ module NewRelic
           :allowed_from_server => false,
           :description  => 'Disables installation of Grape instrumentation.'
         },
+        :disable_roda_instrumentation => {
+          :default      => false,
+          :public       => false,
+          :type         => Boolean,
+          :allowed_from_server => false,
+          :description  => 'Disables installation of Roda instrumentation.'
+        },
+        :disable_roda => {
+          :default      => false,
+          :public       => true,
+          :type         => Boolean,
+          :allowed_from_server => false,
+          :description  => 'Disables installation of Roda instrumentation.'
+        },
         :'attributes.enabled' => {
           :default     => true,
           :public      => false,
